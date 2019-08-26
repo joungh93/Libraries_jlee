@@ -1,2 +1,2 @@
 # USER
-python scripts that I have made & collected while using Anaconda 2
+Python scripts that I have made and collected for Anaconda 2
