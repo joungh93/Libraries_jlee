@@ -11,7 +11,7 @@ import numpy as np
 
 def read_region(regfile, regtype='circle'):
 	'''
-	regfile - name of the region file (dtype: str)
+	regfile - name of the region file (dtype: string)
 	regtype - shape of the region (default: 'circle')
 		'circle' - x_center, y_center, radius
 		'ellipse' - x_center, y_center, semi-major axis, semi-minor axis, angle(deg)
