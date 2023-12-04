@@ -13,8 +13,8 @@ def linear(img, scale_min=0.0, scale_max=1.0):
     x = img.astype(float)
     y = np.zeros((img.shape[0],img.shape[1]), dtype=float)
     
-    scale_min = np.float(scale_min)
-    scale_max = np.float(scale_max)
+    scale_min = float(scale_min)
+    scale_max = float(scale_max)
     
     lo = (img <= scale_min)
     bw = ((img > scale_min) & (img < scale_max))
@@ -33,8 +33,8 @@ def log(img, scale_min=0.0, scale_max=1.0, a=1000.0):
     x = img.astype(float)
     y = np.zeros((img.shape[0],img.shape[1]), dtype=float)
     
-    scale_min = np.float(scale_min)
-    scale_max = np.float(scale_max)
+    scale_min = float(scale_min)
+    scale_max = float(scale_max)
     
     lo = (img <= scale_min)
     bw = ((img > scale_min) & (img < scale_max))
@@ -53,8 +53,8 @@ def power(img, scale_min=0.0, scale_max=1.0, a=1000.0):
     x = img.astype(float)
     y = np.zeros((img.shape[0],img.shape[1]), dtype=float)
 
-    scale_min = np.float(scale_min)
-    scale_max = np.float(scale_max)
+    scale_min = float(scale_min)
+    scale_max = float(scale_max)
     
     lo = (img <= scale_min)
     bw = ((img > scale_min) & (img < scale_max))
@@ -73,8 +73,8 @@ def sqrt(img, scale_min=0.0, scale_max=1.0):
     x = img.astype(float)
     y = np.zeros((img.shape[0],img.shape[1]), dtype=float)
 
-    scale_min = np.float(scale_min)
-    scale_max = np.float(scale_max)
+    scale_min = float(scale_min)
+    scale_max = float(scale_max)
     
     lo = (img <= scale_min)
     bw = ((img > scale_min) & (img < scale_max))
@@ -93,8 +93,8 @@ def square(img, scale_min=0.0, scale_max=1.0):
     x = img.astype(float)
     y = np.zeros((img.shape[0],img.shape[1]), dtype=float)
 
-    scale_min = np.float(scale_min)
-    scale_max = np.float(scale_max)
+    scale_min = float(scale_min)
+    scale_max = float(scale_max)
     
     lo = (img <= scale_min)
     bw = ((img > scale_min) & (img < scale_max))
@@ -113,8 +113,8 @@ def asinh(img, scale_min=0.0, scale_max=1.0):
     x = img.astype(float)
     y = np.zeros((img.shape[0],img.shape[1]), dtype=float)
 
-    scale_min = np.float(scale_min)
-    scale_max = np.float(scale_max)
+    scale_min = float(scale_min)
+    scale_max = float(scale_max)
     
     lo = (img <= scale_min)
     bw = ((img > scale_min) & (img < scale_max))
@@ -133,8 +133,8 @@ def sinh(img, scale_min=0.0, scale_max=1.0):
     x = img.astype(float)
     y = np.zeros((img.shape[0],img.shape[1]), dtype=float)
 
-    scale_min = np.float(scale_min)
-    scale_max = np.float(scale_max)
+    scale_min = float(scale_min)
+    scale_max = float(scale_max)
     
     lo = (img <= scale_min)
     bw = ((img > scale_min) & (img < scale_max))
