@@ -1,13 +1,13 @@
-# Lib_jlee
-(updated on 2021. 1. 29.)
+# Libraries_jlee
+(updated on 2024. 4. 8.)
 
 
 ## Description
-A default library of useful Python codes that can be imported in any paths
+A default library of useful Python codes that can be imported into any paths
 
 
 ## Prerequisites
-* Retriving this library to the Python path (i.e. /home/jlee/anaconda3/bin/)
+* Retrieving this library to the Python path (i.e. /home/jlee/anaconda3/bin/)
 ```
 $ cd /your_python_path/
 $ git clone https://github.com/joungh93/Lib_jlee.git
